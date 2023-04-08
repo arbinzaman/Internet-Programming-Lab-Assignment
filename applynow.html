@@ -1,0 +1,144 @@
+<!doctype html>
+<html data-theme="cupcake">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisy UI Link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.5/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.5/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <!-- navbar  start-->
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </label>
+                <ul tabindex="0"
+                    class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">\
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/contactus.html">Contact Us</a></li>
+                    <li><a>Alumni</a></li>
+                    <li><a href="/faqs.html">FAQs</a></li>
+                </ul>
+            </div>
+            <a class="btn btn-ghost normal-case text-xl">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpi_67lQUomUcEe4WmJ4R4m3ceTQQO4Apho-YS6C38mQ&s"
+                    height="50" width="50" alt="">
+            </a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/contactus.html">Contact Us</a></li>
+                <li><a href="/faqs.html">FAQs</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <a class="btn btn-ghost bg-base-300 rounded " href="/applynow.html">Apply Now</a>
+        </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- apply now section -->
+    <section class="p-10 mt-10 mb-10 bg-base-300">
+        <form novalidate="" action=""
+            class="container flex flex-col mx-auto space-y-12 ng-untouched ng-pristine ng-valid">
+            <fieldset class="grid grid-cols-4 gap-6 p-6 rounded-md shadow-sm">
+                <div class="space-y-2 col-span-full lg:col-span-1">
+                    <p class="font-medium">Personal Inormation</p>
+
+                </div>
+                <div class="grid grid-cols-6 gap-4 col-span-full lg:col-span-3">
+                    <div class="col-span-full sm:col-span-3">
+                        <label for="firstname" class="text-sm">First name</label>
+                        <input id="firstname" type="text" placeholder="First name"
+                            class="w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 ">
+                    </div>
+                    <div class="col-span-full sm:col-span-3">
+                        <label for="lastname" class="text-sm">Last name</label>
+                        <input id="lastname" type="text" placeholder="Last name"
+                            class="w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 ">
+                    </div>
+                    <div class="col-span-full sm:col-span-3">
+                        <label for="email" class="text-sm">Email</label>
+                        <input id="email" type="email" placeholder="Email"
+                            class="w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 ">
+                    </div>
+                    <div class="col-span-full">
+                        <label for="address" class="text-sm">Address</label>
+                        <input id="address" type="text" placeholder=""
+                            class="w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 ">
+                    </div>
+                    <div class="col-span-full sm:col-span-2">
+                        <label for="city" class="text-sm">City</label>
+                        <input id="city" type="text" placeholder=""
+                            class="w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 ">
+                    </div>
+                    <div class="col-span-full sm:col-span-2">
+                        <label for="state" class="text-sm">State / Province</label>
+                        <input id="state" type="text" placeholder=""
+                            class="w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 ">
+                    </div>
+                    <div class="col-span-full sm:col-span-2">
+                        <label for="zip" class="text-sm">ZIP / Postal</label>
+                        <input id="zip" type="text" placeholder=""
+                            class="w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 ">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <!-- apply now section -->
+
+    <!-- footer Section -->
+    <footer class="footer p-10 bg-base-200 text-base-content">
+        <div>
+            <span class="footer-title">Services</span>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </div>
+        <div>
+            <span class="footer-title">Company</span>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </div>
+        <div>
+            <span class="footer-title">Legal</span>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </div>
+        <div>
+            <span class="footer-title">Newsletter</span>
+            <div class="form-control w-80">
+                <label class="label">
+                    <span class="label-text">Enter your email address</span>
+                </label>
+                <div class="relative">
+                    <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" />
+                    <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer Section -->
+</body>
+
+</html>
